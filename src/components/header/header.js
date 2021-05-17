@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Menu from "../menu/menu";
+import HeaderSearch from "../header-search/header-search";
 
 const HeaderContainer = styled.div.attrs(() => ({
     className: 'container',
@@ -17,6 +18,7 @@ const MenuContainer = styled.div.attrs(() => ({
 }))`
     display: flex;
     flex-direction: column;
+    margin-right: 35px;
 `;
 
 const BurgerButton = styled.button.attrs(() => ({
@@ -62,6 +64,8 @@ const Header = () => {
                     <BurgerButton />
                 </MenuContainer>
                 <Menu />
+                <HeaderSearch />
+                <button className="button" type="button">Log in / Registration</button>
             </HeaderContainer>
         </header>
     );
