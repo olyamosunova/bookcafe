@@ -1,17 +1,6 @@
 import React from "react";
-import styled from "styled-components";
+import BooksList from "../../styled-component/books-list";
 import BooksListItem from "../books-list-item/books-list-item";
-
-const BooksList = styled.ul.attrs(() => ({
-    className: 'books-container__list books-list'
-}))`
-    display: flex;
-    flex-direction: row;
-    margin: 0;
-    padding: 0;
-    
-    list-style: none;
-`;
 
 const BooksContainer = (props) => {
     const {title, books} = props;

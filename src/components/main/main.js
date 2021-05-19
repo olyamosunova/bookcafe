@@ -4,7 +4,7 @@ import MainBanner from "../main-banner/main-banner";
 import BooksContainer from "../books-container/books-container";
 
 const MainWrapper = styled.main`
-    padding: 58px 0 93px;
+    padding: 40px 0;
 `;
 
 const Main = () => {
