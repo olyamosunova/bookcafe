@@ -2,8 +2,7 @@ import styled from "styled-components";
 import {COLORS} from "../variables";
 
 const BurgerButton = styled.button.attrs(() => ({
-    type: 'button',
-    className: 'menu__button'
+    type: 'button'
 }))`
     width: 30px;
     height: 16px;
